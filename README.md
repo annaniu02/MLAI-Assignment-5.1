@@ -12,7 +12,7 @@ The following operations were done to handle missing values in the data:
 
 The "car" column was deleted as the majority of values in this column were NaN.
 
-Other columns like "Bar", "CoffeeHouse", "CarryAway", "RestaurantLessThan20", and "Restaurant20To50" that had some missing values had these missing values replaced with the respective columns most common value.
+Other columns like "Bar", "CoffeeHouse", "CarryAway", "RestaurantLessThan20", and "Restaurant20To50" that had some missing values had these missing values replaced with the respective column's most common value.
 
 Some structural changes were made to the column names to fix typos, match capitalization/underscore conventions, and help understanding.
 - All columns had their first letter capitalized
@@ -57,10 +57,10 @@ Some structural changes were made to the column names to fix typos, match capita
 - Drivers who are going home and the coupon venue is in the same direction are much more likely to accept the takeout coupon than reject it.
 - Drivers out at 2 PM who are not going anywhere urgent are also much more likely to accept the takeout coupon than reject it.
 
-## Next Steps
+## Next Steps/Recommendations
 - The different coupon types should be tailored to target demographics that have a higher acceptance rate.
 - Bar coupons should be sent primarily to people who already frequent bars often, and the younger demographic.
 - More coupons for takeout should be sent out around 2 PM and 6 PM, which were found to be the times with the highest acceptance rate.
-    - During weekdays at 6 PM, take out coupons whose venues are in the same direction as the driver's destination should be prioritized and sent out in higher volume to target drivers leaving work.
+    - During weekdays at 6 PM, take out coupons whose venues are in the same direction as the driver's destination should be prioritized and sent out in higher volume to target drivers heading home after leaving work.
     - During weekends at 2 PM is another peak time when more take out coupons should be distributed to target drivers out with friends.
 - Additional analysis should be done for the other coupon types and features to determine additional target demographics and distribution times.
